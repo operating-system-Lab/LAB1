@@ -16,11 +16,11 @@
 
 ### Characteristics:
 
-**Device Management:** The operating system keeps track of all the devices. So, it is also called the Input / Output controller that decides which process gets the device, when, and for how much time.
-**File Management:** It allocates and de-allocates the resources and also decides who gets the resource.
-**Job Accounting:** It keeps the track of time and resources used by various jobs or users.
-Error-detecting Aids: It contains methods that include the production of dumps, traces, error messages, and other debugging and error-detecting methods.
-**Memory Management:** It keeps track of the primary memory, like what part of it is in use by whom, or what part is not in use, etc. and It also allocates the memory when a process or program requests it.
+**Device Management:** The operating system keeps track of all the devices. So, it is also called the Input / Output controller that decides which process gets the device, when, and for how much time.<br />
+**File Management:** It allocates and de-allocates the resources and also decides who gets the resource.<br />
+**Job Accounting:** It keeps the track of time and resources used by various jobs or users.<br />
+Error-detecting Aids: It contains methods that include the production of dumps, traces, error messages, and other debugging and error-detecting methods.<br />
+**Memory Management:** It keeps track of the primary memory, like what part of it is in use by whom, or what part is not in use, etc. and It also allocates the memory when a process or program requests it.<br />
 **Processor Management:** It allocates the processor to a process and then de-allocates the processor when it is no longer required or the job is done.
-Control on System Performance: It records the delays between the request for a service and from the system.
-**Security:** It prevents unauthorized access to programs and data by means of passwords or some kind of protection technique.
+Control on System Performance: It records the delays between the request for a service and from the system.<br />
+**Security:** It prevents unauthorized access to programs and data by means of passwords or some kind of protection technique.<br />
