@@ -34,14 +34,14 @@ Control on System Performance: It records the delays between the request for a s
 5. **Real-time operating system:** This type of operating system serves real time system and the time interval required to process and respond to inputs is very small. <br / >
 
 ### Cmder - The best way to run Linux, Shell, Bash commands and scripts in windows 
- [DownLoad Cmder](https://cmder.app/).
+  **DownLoad** [Cmder](https://cmder.app/).
  
 # Hands on Unix Commands.
 
 
-###Objective:
+### Objective:
 
-⦁	To understand basic utilities of unix.
+⦁	To understand basic utilities of unix.<br/>
 ⦁	To compare basic unix shell with popular shell and to learn the basic components in constructing shell script.
 
 
@@ -55,16 +55,16 @@ Designing the Solution:
 The exercises in this lab cover the usage of some of the most basic system utilities that users and administrators alike need to be familiar with. Most of the commands are used in navigating and manipulating the file system. The file system is made up of files and directories.
 
 ### Theory/Description:
-- 	pwd COMMAND:
+- 	**pwd COMMAND:**
 1.  pwd - Print Working Directory. pwd command prints the full filename of the current working directory.
-SYNTAX: <br />
-2. pwd [options]
+`SYNTAX:
+ pwd [options]`
 
--	cd COMMAND:
+-	**cd COMMAND:**
 1. cd command is used to change the directory. SYNTAX:
 2. cd [directory | ~ | ./ | ../ | - ]
 
--	ls COMMAND:
+-	**ls COMMAND:**
 1. ls command lists the files and directories under current working directory. SYNTAX:
 2. ls [OPTIONS]... [FILE] OPTIONS:
 
@@ -76,34 +76,34 @@ SYNTAX: <br />
 - -u	List in order of last access time.
 - -i	Display inode information.
 
--	rm COMMAND:
+-	**rm COMMAND:**
 1. rm linux command is used to remove/delete the file from the directory. SYNTAX:
 2. rm [options..] [file | directory]
 OPTIONS:
 3. -f	Remove all files in a directory without prompting the user.
 4. -i	Interactive. With this option, rm prompts for confirmation before removing any files.
 
-- mv COMMAND:
+- **mv COMMAND:**
 1. mv command which is short for move. It is used to move/rename file from one directory to another. mv command is different from cp command as it completely removes the file from the source and moves to the directory specified, where cp command just copies the content from one file to another. SYNTAX:
 2. mv [-f] [-i] oldname newname OPTIONS:
 3. -f	This will not prompt before overwriting (equivalent to -- reply=yes). mv -f will move the file(s) without prompting even if it is writing over an existing target.
 4. -i	Prompts before overwriting another file.
 
 
--	cat COMMAND:
+-	**cat COMMAND:**
 cat linux command concatenates files and print it on the standard output.
 > SYNTAX:
 The Syntax is
 `cat [OPTIONS] [FILE]...`
 
-- OPTIONS:
+- **OPTIONS:**
 - -A Show all.
 - -b	Omits line numbers for blank space in the output.
 - -E	Displays a $ (dollar sign) at the end of each line.
 - -n	Line numbers for all the output lines.
 
 
-⦁	cmp COMMAND:
+⦁	**cmp COMMAND:**
 cmp linux command compares two files and tells you which line numbers are different.
 SYNTAX:
 cmp [options..] file1 file2 OPTIONS:
@@ -111,16 +111,16 @@ cmp [options..] file1 file2 OPTIONS:
 ⦁	l	Print the byte number (decimal) and the differing byte values (octal) for each difference.
 ⦁	s	Prints nothing for differing files, return exit status only.
 
-⦁	cp COMMAND:
+⦁	**cp COMMAND:**
 cp command copy files from one location to another. If the destination is an existing file, then the file is overwritten; if the destination is an existing directory, the file is copied into the directory (the directory is not overwritten).
 SYNTAX:
 cp [OPTIONS]... SOURCE DEST
 
-⦁	echo COMMAND:
+⦁	**echo COMMAND:**
 echo command prints the given input string to standard output. SYNTAX:
 echo [options..] [string]
 
-⦁	mkdir COMMAND:
+⦁	**mkdir COMMAND:**
 mkdir command is used to create one or more directories. SYNTAX:
 mkdir [options] directories
 OPTIONS:
@@ -128,31 +128,31 @@ OPTIONS:
 -p	Create intervening parent directories if they don't exist.
 -v	Print help message for each directory created.
 
-⦁	paste COMMAND:
+⦁	**paste COMMAND:**
 paste command is used to paste the content from one file to another file. It is also used to set column format for each line.
 SYNTAX:
 paste [options] OPTIONS:
 -s	Paste one file at a time instead of in parallel.
 -d	Reuse characters from LIST instead of TABs .
 
-⦁	rmdir COMMAND:
+⦁	**rmdir COMMAND:**
 rmdir command is used to delete/remove a directory and its subdirectories. SYNTAX:
 rmdir [options..] Directory
 OPTIONS:
 -p	Allow users to remove the directory dir name and its parent directories which become empty.
 
 
-⦁	head COMMAND:
+⦁	**head COMMAND:**
 It is the complementary of Tail command. The head command, as the name implies, print the top N number of data of the given input. By default it prints the first 10 lines of the specified files. If more than one file name is provided then data from each file is precedes by its file name.
 SYNTAX:
 head [OPTION]… [FILE]…
 
-⦁	tail COMMAND:
+⦁	**tail COMMAND:**
 It is the complementary of head command.The tail command, as the name implies, print the last N number of data of the given input. By default it prints the last 10 lines of the specified files. If more than one file name is provided then data from each file is precedes by its file name.
 SYNTAX:
 tail [OPTION]… [FILE]…
 
-⦁	date COMMAND:
+⦁	**date COMMAND:**
 date command is used to display the system date and time. date command is also used to set date and time of the system. By default the date command displays the date in the time zone on which unix/linux operating system is configured.You must be the super-user (root) to change the date and time.
 SYNTAX:
 date [OPTION]… [+FORMAT]
@@ -160,8 +160,7 @@ date [OPTION]… [+FORMAT]
 
 
 
-#### Conclusion :---------------------------------------------------------------------------------------------
-
+#### Conclusion :
   ##### QUESTIONS :
 
 1. ⦁	What is the description for Kernel?
