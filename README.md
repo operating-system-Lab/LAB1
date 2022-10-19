@@ -34,6 +34,146 @@ Control on System Performance: It records the delays between the request for a s
 5. **Real-time operating system:** This type of operating system serves real time system and the time interval required to process and respond to inputs is very small. <br / >
 
 ### Cmder - The best way to run Linux, Shell, Bash commands and scripts in windows 
-[Cmder](https://cmder.app/).
+ [DownLoad Cmder](https://cmder.app/).
+ 
+# Hands on Unix Commands.
+
+
+###Objective:
+
+⦁	To understand basic utilities of unix.
+⦁	To compare basic unix shell with popular shell and to learn the basic components in constructing shell script.
+
+
+### Analyzing the Problem:
+
+⦁	Start the Linux and enter the user name and password.
+⦁	Now write startx and after that open the terminal.
+⦁	At the terminal try the different commands and see the output.
+Designing the Solution:
+⦁	At the terminal first perform the command without and with the different Options available for it.
+The exercises in this lab cover the usage of some of the most basic system utilities that users and administrators alike need to be familiar with. Most of the commands are used in navigating and manipulating the file system. The file system is made up of files and directories.
+
+### Theory/Description:
+- 	pwd COMMAND:
+1.  pwd - Print Working Directory. pwd command prints the full filename of the current working directory.
+SYNTAX: <br />
+2. pwd [options]
+
+-	cd COMMAND:
+1. cd command is used to change the directory. SYNTAX:
+2. cd [directory | ~ | ./ | ../ | - ]
+
+-	ls COMMAND:
+1. ls command lists the files and directories under current working directory. SYNTAX:
+2. ls [OPTIONS]... [FILE] OPTIONS:
+
+ - -l	Lists all the files, directories and their mode, Number of links, owner of the file, file size, Modified date and time and filename.
+- -t	Lists in order of last modification time.
+- -a	Lists all entries including hidden files.
+- -d	Lists directory files instead of contents.
+- -p	Puts slash at the end of each directories.
+- -u	List in order of last access time.
+- -i	Display inode information.
+
+-	rm COMMAND:
+1. rm linux command is used to remove/delete the file from the directory. SYNTAX:
+2. rm [options..] [file | directory]
+OPTIONS:
+3. -f	Remove all files in a directory without prompting the user.
+4. -i	Interactive. With this option, rm prompts for confirmation before removing any files.
+
+- mv COMMAND:
+1. mv command which is short for move. It is used to move/rename file from one directory to another. mv command is different from cp command as it completely removes the file from the source and moves to the directory specified, where cp command just copies the content from one file to another. SYNTAX:
+2. mv [-f] [-i] oldname newname OPTIONS:
+3. -f	This will not prompt before overwriting (equivalent to -- reply=yes). mv -f will move the file(s) without prompting even if it is writing over an existing target.
+4. -i	Prompts before overwriting another file.
+
+
+-	cat COMMAND:
+cat linux command concatenates files and print it on the standard output.
+> SYNTAX:
+The Syntax is
+`cat [OPTIONS] [FILE]...`
+
+- OPTIONS:
+- -A Show all.
+- -b	Omits line numbers for blank space in the output.
+- -E	Displays a $ (dollar sign) at the end of each line.
+- -n	Line numbers for all the output lines.
+
+
+⦁	cmp COMMAND:
+cmp linux command compares two files and tells you which line numbers are different.
+SYNTAX:
+cmp [options..] file1 file2 OPTIONS:
+⦁	c	Output differing bytes as characters.
+⦁	l	Print the byte number (decimal) and the differing byte values (octal) for each difference.
+⦁	s	Prints nothing for differing files, return exit status only.
+
+⦁	cp COMMAND:
+cp command copy files from one location to another. If the destination is an existing file, then the file is overwritten; if the destination is an existing directory, the file is copied into the directory (the directory is not overwritten).
+SYNTAX:
+cp [OPTIONS]... SOURCE DEST
+
+⦁	echo COMMAND:
+echo command prints the given input string to standard output. SYNTAX:
+echo [options..] [string]
+
+⦁	mkdir COMMAND:
+mkdir command is used to create one or more directories. SYNTAX:
+mkdir [options] directories
+OPTIONS:
+-m	Set the access mode for the new directories.
+-p	Create intervening parent directories if they don't exist.
+-v	Print help message for each directory created.
+
+⦁	paste COMMAND:
+paste command is used to paste the content from one file to another file. It is also used to set column format for each line.
+SYNTAX:
+paste [options] OPTIONS:
+-s	Paste one file at a time instead of in parallel.
+-d	Reuse characters from LIST instead of TABs .
+
+⦁	rmdir COMMAND:
+rmdir command is used to delete/remove a directory and its subdirectories. SYNTAX:
+rmdir [options..] Directory
+OPTIONS:
+-p	Allow users to remove the directory dir name and its parent directories which become empty.
+
+
+⦁	head COMMAND:
+It is the complementary of Tail command. The head command, as the name implies, print the top N number of data of the given input. By default it prints the first 10 lines of the specified files. If more than one file name is provided then data from each file is precedes by its file name.
+SYNTAX:
+head [OPTION]… [FILE]…
+
+⦁	tail COMMAND:
+It is the complementary of head command.The tail command, as the name implies, print the last N number of data of the given input. By default it prints the last 10 lines of the specified files. If more than one file name is provided then data from each file is precedes by its file name.
+SYNTAX:
+tail [OPTION]… [FILE]…
+
+⦁	date COMMAND:
+date command is used to display the system date and time. date command is also used to set date and time of the system. By default the date command displays the date in the time zone on which unix/linux operating system is configured.You must be the super-user (root) to change the date and time.
+SYNTAX:
+date [OPTION]… [+FORMAT]
+
+
+
+
+#### Conclusion :---------------------------------------------------------------------------------------------
+
+  ##### QUESTIONS :
+
+1. ⦁	What is the description for Kernel?
+2. ⦁	What are the main features of UNIX?
+3. ⦁	What is called Shell?
+4. ⦁	What is the general format of UNIX command syntax?
+5. ⦁	Describe the usage and functionality of the command “rm” in UNIX?
+6. ⦁	Describe the term directory in UNIX?
+7. ⦁	What is the command to find today’s date?
+8. ⦁	What is the UNIX command to make a new directory?
+9. ⦁	What is the purpose of “echo” command?
+10. ⦁	What do you understand by UNIX shell?
+
 
 
