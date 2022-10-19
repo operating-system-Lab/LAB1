@@ -38,14 +38,7 @@ Control on System Performance: It records the delays between the request for a s
  
 # Hands on Unix Commands.
 
-### Analyzing the Problem:
 
-⦁	Start the Linux and enter the user name and password.
-⦁	Now write startx and after that open the terminal.
-⦁	At the terminal try the different commands and see the output.
-Designing the Solution:
-⦁	At the terminal first perform the command without and with the different Options available for it.
-The exercises in this lab cover the usage of some of the most basic system utilities that users and administrators alike need to be familiar with. Most of the commands are used in navigating and manipulating the file system. The file system is made up of files and directories.
 
 ### Theory/Description:
 - 	**pwd COMMAND:**
