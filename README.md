@@ -24,3 +24,11 @@ Error-detecting Aids: It contains methods that include the production of dumps, 
 **Processor Management:** It allocates the processor to a process and then de-allocates the processor when it is no longer required or the job is done.
 Control on System Performance: It records the delays between the request for a service and from the system.<br />
 **Security:** It prevents unauthorized access to programs and data by means of passwords or some kind of protection technique.<br />
+
+### Types of the operating system:
+
+**Batch Operating System:** This type of operating system does not interact with the computer directly. There is an operator which takes similar jobs having the same requirements and groups them into batches.<br />
+**Time-sharing operating System:** This type of operating system allows many users to share computer resources. (Max utilization of the resources).
+**Distributed operating System:** This type of operating system manages a group of different computers and makes appear to be a single computer.<br />
+**Network operating system:** This type of operating system running on a server and provides the capability to manage data, users, groups, security, applications, and other networking functions.<br />
+**Real-time operating system:** This type of operating system serves real time system and the time interval required to process and respond to inputs is very small. <br >
