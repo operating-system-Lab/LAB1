@@ -38,13 +38,6 @@ Control on System Performance: It records the delays between the request for a s
  
 # Hands on Unix Commands.
 
-
-### Objective:
-
-⦁	To understand basic utilities of unix.<br/>
-⦁	To compare basic unix shell with popular shell and to learn the basic components in constructing shell script.
-
-
 ### Analyzing the Problem:
 
 ⦁	Start the Linux and enter the user name and password.
