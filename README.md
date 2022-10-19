@@ -31,4 +31,9 @@ Control on System Performance: It records the delays between the request for a s
 2. **Time-sharing operating System:** This type of operating system allows many users to share computer resources. (Max utilization of the resources).<br />
 3. **Distributed operating System:** This type of operating system manages a group of different computers and makes appear to be a single computer.<br />
 4. **Network operating system:** This type of operating system running on a server and provides the capability to manage data, users, groups, security, applications, and other networking functions.<br />
-5. **Real-time operating system:** This type of operating system serves real time system and the time interval required to process and respond to inputs is very small. <br >
+5. **Real-time operating system:** This type of operating system serves real time system and the time interval required to process and respond to inputs is very small. <br / >
+
+### Cmder - The best way to run Linux, Shell, Bash commands and scripts in windows 
+[Cmder](https://cmder.app/).
+
+
