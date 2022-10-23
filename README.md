@@ -33,6 +33,118 @@ Control on System Performance: It records the delays between the request for a s
 4. **Network operating system:** This type of operating system running on a server and provides the capability to manage data, users, groups, security, applications, and other networking functions.<br />
 5. **Real-time operating system:** This type of operating system serves real time system and the time interval required to process and respond to inputs is very small. <br / >
 
+
+### What is a Process in an Operating System?
+A process is essentially running software. The execution of any process must occur in a specific order. A process refers to an entity that helps in representing the fundamental unit of work that must be implemented in any system.
+
+In other words, we write the computer programs in the form of a text file, thus when we run them, these turn into processes that complete all of the duties specified in the program.
+
+A program can be segregated into four pieces when put into memory to become a process: stack, heap, text, and data. The diagram below depicts a simplified representation of a process in the main memory.
+
+### Components of a Process
+It is divided into the following four sections: <br />
+
+ ![Components of a Process](https://cdn1.byjus.com/wp-content/uploads/2022/06/process-in-operating-system.png)
+
+1. **Stack**
+Temporary data like method or function parameters, return address, and local variables are stored in the process stack.
+
+2. **Heap**
+This is the memory that is dynamically allocated to a process during its execution.
+
+3. **Text**
+This comprises the contents present in the processor’s registers as well as the current activity reflected by the value of the program counter.
+
+4.**Data**
+The global as well as static variables are included in this section.
+
+5. **Process Life Cycle**
+When a process runs, it goes through many states. Distinct operating systems have different stages, and the names of these states are not standardised. In general, a process can be in one of the five states listed below at any given time.
+
+6. **Start**
+When a process is started/created first, it is in this state.
+
+ 7. **Ready**
+Here, the process is waiting for a processor to be assigned to it. Ready processes are waiting for the operating system to assign them a processor so that they can run. The process may enter this state after starting or while running, but the scheduler may interrupt it to assign the CPU to another process.
+
+8. **Running**
+When the OS scheduler assigns a processor to a process, the process state gets set to running, and the processor executes the process instructions.
+
+9. **Waiting**
+If a process needs to wait for any resource, such as for user input or for a file to become available, it enters the waiting state.
+
+10.**Terminated or Exit**
+The process is relocated to the terminated state, where it waits for removal from the main memory once it has completed its execution or been terminated by the operating system.
+ ![Terminated or Exit](https://cdn1.byjus.com/wp-content/uploads/2022/06/process-in-operating-system1.png)
+
+11. **Process Control Block (PCB)**
+Every process has a process control block, which is a data structure managed by the operating system. An integer process ID (or PID) is used to identify the PCB. As shown below, PCB stores all of the information required to maintain track of a process.
+
+12. **Process state**
+The process’s present state, such as whether it’s ready, waiting, running, or whatever.
+
+13. **Process privileges**
+This is required in order to grant or deny access to system resources.
+
+14. **Process ID**
+Each process in the OS has its own unique identifier.
+
+15. **Pointer**
+It refers to a pointer that points to the parent process.
+
+16. **Program counter**
+The program counter refers to a pointer that points to the address of the process’s next instruction.
+
+17. **CPU registers**
+Processes must be stored in various CPU registers for execution in the running state.
+
+18 .**CPU scheduling information**
+Process priority and additional scheduling information are required for the process to be scheduled.
+
+19. **Memory management information**
+This includes information from the page table, memory limitations, and segment table, all of which are dependent on the amount of memory used by the OS.
+
+20. **Accounting information**
+This comprises CPU use for process execution, time constraints, and execution ID, among other things.
+
+21. **IO status information**
+This comprises CPU use for process execution, time constraints, and execution ID, among other things.
+This section includes a list of the process’s I/O devices.
+
+The PCB architecture is fully dependent on the operating system, and different operating systems may include different information. A simplified diagram of a PCB is shown below.
+
+ ![IO status information](https://cdn1.byjus.com/wp-content/uploads/2022/06/process-in-operating-system2.png)
+ <br />
+
+ The PCB is kept for the duration of a procedure and then removed once the process is finished.
+
+ ### The Different Process States
+
+The operating system’s processes can be in one of the following states: <br />
+
+1. **NEW** : The creation of the process.
+2. **READY** : The waiting for the process that is to be assigned to any processor.
+3. **RUNNING** :Execution of the instructions.
+4. **WAITING** : The waiting of the process for some event that is about to occur (like an I/O completion, a signal reception, etc.).
+5. **TERMINATED** :A process has completed execution.
+
+ ![state](https://cdn1.byjus.com/wp-content/uploads/2022/06/process-in-operating-system3.png)
+ <br />
+
+ ### Process vs Program
+ A program is a piece of code that can be as simple as a single line or as complex as millions of lines. A computer program is usually developed in a programming language by a programmer. The process, on the other hand, is essentially a representation of the computer program that is now running. It has a comparatively shorter lifetime
+
+### Process Scheduling
+When there are several or more runnable processes, the operating system chooses which one to run first; this is known as process scheduling.
+
+**A scheduler is a program** that uses a scheduling algorithm to make choices. The following are characteristics of a good scheduling algorithm:
+
+1. For users, response time should be kept to a bare minimum.
+2. The total number of jobs processed every hour should be as high as possible, implying that a good scheduling system should provide the highest possible throughput.
+The CPU should be used to its full potential.
+3. Each process should be given an equal amount of CPU time.
+
+
 ### Cmder - The best way to run Linux, Shell, Bash commands and scripts in windows 
   **DownLoad** [Cmder](https://cmder.app/).
  
